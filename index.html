@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 LUGX Gaming </title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <div id="homesection">
+    <div class="navbar">  
+      <div> 
+        <img class="logo" src="image/Logo.png">
+      </div>
+      <div class="headcontainer">
+        <a href="index.html" class="homebtn">Home</a>
+        <a href="#sec-ourshop" class="ourshopbtn">Our Shop</a> 
+        <a href="#prductdetails" class="Productbtn">Product Details</a>
+        <a href="contact.html" class="contactbtn">Contact US</a>
+        <button id="openBtn">SIGN IN</button>
+  
+      <div  class="popup" id="popup">
+       <div class="login-box">
+        <span class="close-box">&items;</span>
+          <h2>Sign In</h2> 
+          <input type="text" placeholder="Username">
+          <input type="password" placeholder="Password">
+          <button class="login-btn">Login</button> 
+       </div>
+  
+      </div>
+        </div>
+       </div>
+    <div class="hero">
+      <div class="textmainpage">
+        <p class="welcomebtn"> WELCOME TO LUGX </p>
+      <h1 class="bigline">Your Ultimate
+        Gaming Destination!</h1>
+        <p class="deatilstext">LUGX Gaming — your go-to platform for discovering top-rated games, exploring 
+          new releases,and staying ahead in the gaming world. 
+          Join millions of gamers who trust LUGX for the best experience.</p>
+          <label for="Search" ></label>           
+          <input class="Search1"  type="text" placeholder="Search for a game" id="search">
+          <button class="searchbtn" onclick="Searchgame()">SEARCH NOW</button>
+        <img class="imghead" src="image/hero.jpeg">
+    </div>
+    </div>
+
+      <div id="sec-ourshop" class="trendinggames-sec">
+           <p class="trendingp1">🔥 Hot Right Now</p>
+        <div class="line2trending">
+           <h1 class="trendingp2">Trending Games</h1>
+           <button class="viewallbtn" onclick="Viewall1()">View All</button>
+        </div>
+     </div>
+
+     <div class="treanding-items">
+      <div class="imgitemone">
+         <img class="imgone" src="image/trending1.jpeg">
+           <p class="imgp1">Action / RPG</p>
+           <div>
+           <p class="imgp2" class="game">Assassin's Creed</p>
+           <img class="logoimg1" src="image/logo2.png">
+          </div>
+      </div>
+      <div class="imgitemtwo">
+         <img class="imgtwo" src="image/trending2.jpeg">
+           <p class="imgp3">Open World</p>
+           <div>
+           <p class="imgp4" class="game">Cyberpunk 2077</p>
+           <img class="logoimg2" src="image/logo2.png">
+           </div>
+      </div>
+      <div class="imgitemthree">
+         <img class="imgthree" src="image/trending3.jpeg">
+           <p class="imgp5">Adventure</p>
+           <div>
+           <p class="imgp6" class="game">God of War</p>
+           <img class="logoimg3" src="image/logo2.png">
+          </div> 
+        </div>
+      <div class="imgitemfour">
+         <img class="imgfour" src="image/trending4.jpeg">
+           <p class="imgp7">Dark Fantasy</p>
+           <div>
+           <p class="imgp8"  class="game">Elden Ring</p>
+           <img class="logoimg4" src="image/logo2.png">
+          </div>
+      </div>
+     </div>
+
+     <div id="prductdetails" class="topgames-sec">
+           <p class="topp1"> 🎮Top Games</p>
+        <div class="line2top">
+           <h1 class="topp2">Most Played</h1>
+           <button class="viewallbtn2" onclick="Viewall2()">View All</button>
+        </div>
+ <div class="sec-top-items"> 
+     <div class="topitems1">
+         <img class="topimg1" src="image/topgames1.jpeg">
+           <div class="infoimg1">
+           <p class="topimgp1">Action</p>
+           <p class="topimgp2img1">Assassin's Creed</p>
+           <button class="topimgbtn1"onclick="showGame1()">
+            Explore
+          </button>
+          </div> 
+        </div>
+
+   <div class="topitems2">
+         <img class="topimg2" src="image/topgames2.jpeg">
+           <div class="infoimg2">
+           <p class="topimgp2">Open World</p>
+            <p class="topimgp2img1">Cyberpunk 2077</p>
+           <button class="topimgbtn2" onclick="showGame2()">Explore</button>
+          </div> 
+        </div>
+        
+    <div class="topitems3">
+         <img class="topimg3" src="image/topgames3.jpeg">
+           <div class="infoimg3">
+           <p class="topimgp3">Adventure</p>
+            <p class="topimgp2img1">God of War</p>
+           <button class="topimgbtn3" onclick="showGame3()">Explore</button>
+           
+          </div> 
+        </div> 
+  <div class="topitems4">
+         <img class="topimg4" src="image/topgames4.jpeg">
+           <div class="infoimg4">
+            <p class="topimgp4">Fantasy</p>
+             <p class="topimgp2img1">Elden Ring</p>
+           <button class="topimgbtn4" onclick="showGame4()">Explore</button>
+          </div> 
+        </div>
+  <div class="topitems5">
+         <img class="topimg5" src="image/topgames5.jpeg">
+           <div class="infoimg5">
+           <p class="topimgp5">Shooter</p>
+            <p class="topimgp2img1">Halo Infinite</p>
+           <button class="topimgbtn5" onclick="showGame5()">Explore</button>
+          </div> 
+        </div>
+  <div class="topitems6">
+         <img class="topimg6" src="image/topgames6.jpeg">
+           <div class="infoimg6">
+            <p class="topimgp6">RPG</p>
+             <p class="topimgp2img1">The Witcher3</p>
+           <button class="topimgbtn6" onclick="showGame6()">Explore</button>
+          </div> 
+        </div>
+   </div>
+</div>  
+  
+    <div>
+        <p class="lastsectionp1">🎮Top Games🎮</p>
+        <p class="lastsectionp2">Top Categories</p>
+    </div>
+  <div class="lastsection">
+    <div class="secaction">
+      <p class="secactionp1">Action</p>
+      <img  class="secactionimg" src="image/Categorie1.jpeg">
+    </div>
+
+     <div class="secRPG">
+      <p>RPG</p>
+      <img  class="secRPGimg" src="image/topgames6.jpeg">
+    </div>
+
+     <div class="secAdventure">
+      <p class="secAdventurep1">Adventure</p>
+      <img  class="secAdventureimg" src="image/topgames5.jpeg">
+    </div> 
+
+    <div class="secShooter">
+      <p class="secShooterp1" >Shooter</p>
+      <img  class="secShooterimg" src="image/Categories4.jpeg">
+    </div>
+
+     <div class="secstrategy">
+      <p class="secstrategyp1">Strategy</p>
+      <img  class="secstrategyimg" src="image/Categories5.jpeg">
+    </div>
+</div> 
+    <div class="Lasttexthomese">
+      <p>🎮 Welcome back! You have visited 57 times</p>
+    </div>
+    <div class="finalphomesec">
+   <p class="finalptexthomesec">copyright © 2026 LUGX Gaming Company. All rights reserved.</p>
+    </div>
+     </div>
+   </div>
+ </div>
+  </body>
+</html>
