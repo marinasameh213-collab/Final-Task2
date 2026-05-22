@@ -271,12 +271,13 @@ background :linear-gradient(to right,#52096e,#1232bd);
   font-size: xx-large;
 }
 .lab1{
+margin-top: 20px;
 text-align: left;
 display: block;
 color: aliceblue;
 font-size: large;
-padding: 10px;
-margin: 7px;
+margin-top: 15px;
+padding-left: 30px;
 }
 
 .lab2{
@@ -285,8 +286,9 @@ display: block;
 border: 10px;
 border-radius: 10px;
 color: black;
-padding: 10px;
-margin: 7px;
+padding: 13px;
+margin-top: 5px;
+margin-left: 20px;
 } 
 
 .lab3{
@@ -294,8 +296,8 @@ color: aliceblue;
 text-align: left;
 display: block;
 font-size: large;
-padding: 15px;
-margin: 5px;
+margin-top: 15px;
+padding-left: 30px;
 }
 
 .lab4{
@@ -303,16 +305,17 @@ display: block;
 color: black;
 border: 10px;
 border-radius: 5px;
-padding: 10px;
-margin: 7px;
+padding: 13px;
+margin-top: 5px;
+margin-left: 20px;
 } 
 .age{
 text-align: left;
 display: block;
 color: aliceblue;
 font-size: large;
-padding: 10px;
-margin: 7px;
+margin-top: 15px;
+padding-left: 30px;
 }
 
 .age2{
@@ -320,16 +323,17 @@ display: block;
 border: 10px;
 color: rgb(1, 1, 2);
 border-radius: 5px;
-padding: 10px;
-margin: 7px;
+padding: 13px;
+margin-top: 5px;
+margin-left: 20px;
 }
 .mass{
 text-align: left;
 display: block;
 color: aliceblue;
 font-size: large;
-padding:10px;
-margin: 7px;
+margin-top: 15px;
+padding-left: 30px;
 }
 
 .mass2{
@@ -337,8 +341,9 @@ display: block;
 color: rgb(1, 2, 2);
 border: 10px;
 border-radius: 5px;
-padding: 10px;
-margin: 7px;
+padding: 13px;
+margin-top: 5px;
+margin-left: 20px;
 }
 
 .send{
@@ -356,7 +361,7 @@ margin: 7px;
   border: 100px;
   border-radius: 100px;
   transition: 0.8s;
-  margin-top: 22px;
+  margin-top: 45px;
 }
 .send:hover{
   padding-left: 15px;
