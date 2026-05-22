@@ -277,7 +277,7 @@ display: block;
 color: aliceblue;
 font-size: large;
 margin-top: 15px;
-padding-left: 30px;
+padding-left: 40px;
 }
 
 .lab2{
@@ -288,7 +288,7 @@ border-radius: 10px;
 color: black;
 padding: 13px;
 margin-top: 5px;
-margin-left: 20px;
+margin-left: 30px;
 } 
 
 .lab3{
@@ -297,7 +297,7 @@ text-align: left;
 display: block;
 font-size: large;
 margin-top: 15px;
-padding-left: 30px;
+padding-left: 40px;
 }
 
 .lab4{
@@ -307,7 +307,7 @@ border: 10px;
 border-radius: 5px;
 padding: 13px;
 margin-top: 5px;
-margin-left: 20px;
+margin-left: 30px;
 } 
 .age{
 text-align: left;
@@ -315,7 +315,7 @@ display: block;
 color: aliceblue;
 font-size: large;
 margin-top: 15px;
-padding-left: 30px;
+padding-left: 40px;
 }
 
 .age2{
@@ -325,7 +325,7 @@ color: rgb(1, 1, 2);
 border-radius: 5px;
 padding: 13px;
 margin-top: 5px;
-margin-left: 20px;
+margin-left: 30px;
 }
 .mass{
 text-align: left;
@@ -333,7 +333,7 @@ display: block;
 color: aliceblue;
 font-size: large;
 margin-top: 15px;
-padding-left: 30px;
+padding-left: 40px;
 }
 
 .mass2{
@@ -341,9 +341,9 @@ display: block;
 color: rgb(1, 2, 2);
 border: 10px;
 border-radius: 5px;
-padding: 13px;
-margin-top: 8px;
-margin-left: 20px;
+padding: 10px;
+margin-top: 5px;
+margin-left: 30px;
 }
 
 .send{
