@@ -42,7 +42,7 @@
   font-size: 18px;
   font-weight: 600;
   border-radius: 45px;
-  
+   text-decoration: none;
 }
 
 .homebtn:hover{
@@ -59,6 +59,7 @@
   font-size: 18px;
   font-weight: 600;
   border-radius: 45px;
+    text-decoration: none;
 }
 
 .ourshopbtn:hover{
@@ -74,6 +75,7 @@
   font-size: 18px;
   font-weight: 600;
   border-radius: 45px;
+  text-decoration: none;
 }
 .Productbtn:hover{
  background :linear-gradient(to right,#52096e,#1232bd);
@@ -88,6 +90,7 @@
   font-size: 18px;
   font-weight: 600;
   border-radius: 45px;
+   text-decoration: none;
 }
 .contactbtn:hover{
 background :linear-gradient(to right,#52096e,#1232bd); 
@@ -391,7 +394,7 @@ margin: 7px;
   border-radius: 20px 20px 40px 40px;
 }
 .textmainpage{
- padding-left: 70px;
+ padding-left: 80px;
 }
 
 .bigline{
@@ -449,7 +452,7 @@ margin: 7px;
   height: 410px;
   width: 400px;
   border-radius: 20px;
-  margin-left: 830px;
+  margin-left: 750px;
   margin-top: -510px;
   border: solid rgb(24, 6, 73);
 }
@@ -477,8 +480,8 @@ margin: 7px;
  }
  .viewallbtn{
   padding-top:5px;
-  padding: 18px;
-  margin-left: 700px;
+  margin-left: 800px;
+  padding: 13px;
   color:white;
   font-size: 18px;
   font-weight: 600;
@@ -487,7 +490,7 @@ margin: 7px;
   background-color: rgb(235, 87, 33);
  }
 .viewallbtn:hover{ 
-  padding: 20px;
+  padding: 16px;
 }
 
 .treanding-items{
@@ -691,6 +694,8 @@ margin: 7px;
 
 .sec-top-items{
   display: flex;
+  justify-content: center;
+  margin-right: 21px;
 }
 .topitems1{
   width: 195px;
